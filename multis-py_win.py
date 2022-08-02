@@ -12,7 +12,7 @@ if r == 'help':
 
 while True:
 
-     str = "(1) display system info\n(2) list files and directories\n(3) display the weather\n(4) display system info in detail\n(5) start cmd\n(6) exit"
+     str = "(1) display system info\n(2) list files and directories\n(3) display the weather\n(4) display system info in detail\n(5) start cmd\n(6) start powershell\n(7) exit"
      print(str)
 
 
@@ -39,5 +39,8 @@ while True:
 
 
      if e == '6':
+         os.system("start powershell.exe")
+
+     if e == '7':
          os.system("exit")
          break
