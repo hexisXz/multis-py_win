@@ -35,7 +35,7 @@ while True:
 
 
      if e == '5':
-         os.system("start C:\Windows\system32\cmd.exe")
+         os.system("start")
 
 
      if e == '6':
